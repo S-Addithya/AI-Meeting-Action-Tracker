@@ -6,7 +6,7 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
-        <category/>
+        <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
         <cc_render_type>system</cc_render_type>
         <checked_out>false</checked_out>
         <cost>0</cost>
@@ -100,14 +100,14 @@ current.organizer = gs.getUserID();]]></script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-23 03:35:52</sys_created_on>
         <sys_id>85bac6b4c3520310972fb6ec050131af</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>AI Meeting Analysis</sys_name>
         <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
         <sys_policy/>
         <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
         <sys_update_name>sc_cat_item_producer_85bac6b4c3520310972fb6ec050131af</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-23 03:49:40</sys_updated_on>
+        <sys_updated_on>2026-07-23 03:54:40</sys_updated_on>
         <table_name>x_1908237_ai_mee_0_meetings</table_name>
         <taxonomy_topic/>
         <template/>
@@ -115,7 +115,7 @@ current.organizer = gs.getUserID();]]></script>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>13</version>
+        <version>14</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
