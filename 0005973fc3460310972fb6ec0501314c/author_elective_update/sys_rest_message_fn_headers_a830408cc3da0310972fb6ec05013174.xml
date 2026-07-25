@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>X-goog-api-key</name>
+        <rest_message_function display_value="Generate Content">4a092bbfc30a0310972fb6ec05013106</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 09:36:05</sys_created_on>
+        <sys_id>a830408cc3da0310972fb6ec05013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>X-goog-api-key</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_a830408cc3da0310972fb6ec05013174</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 09:36:05</sys_updated_on>
+        <value>${api_key}</value>
+    </sys_rest_message_fn_headers>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</application>
+        <file_path/>
+        <instance_id>2bc97bcddb963d1cebdd2a59139619bb</instance_id>
+        <instance_name>dev201908</instance_name>
+        <name>sys_rest_message_fn_headers_a830408cc3da0310972fb6ec05013174</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>X-goog-api-key</name><rest_message_function display_value="Generate Content">4a092bbfc30a0310972fb6ec05013106</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-20 09:36:05</sys_created_on><sys_id>a830408cc3da0310972fb6ec05013174</sys_id><sys_mod_count>0</sys_mod_count><sys_name>X-goog-api-key</sys_name><sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package><sys_policy/><sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope><sys_update_name>sys_rest_message_fn_headers_a830408cc3da0310972fb6ec05013174</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-20 09:36:05</sys_updated_on><value>${api_key}</value></sys_rest_message_fn_headers></record_update>]]></payload>
+        <payload_hash>1550666962</payload_hash>
+        <record_name>X-goog-api-key</record_name>
+        <reverted_from/>
+        <source>cc05973fc3460310972fb6ec05013192</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 09:36:05</sys_created_on>
+        <sys_id>f4904c8cc3da0310972fb6ec050131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f7ee1f4cf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 09:36:05</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>b4904c8c13da03102e9d88097cc56bae</update_guid>
+        <update_guid_history>b4904c8c13da03102e9d88097cc56bae:1550666962</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 11:07:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>9f984ae6ab21474ea607d2109e2b1dc4</sys_id>
+        <sys_metadata>a830408cc3da0310972fb6ec05013174</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>X-goog-api-key</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_parent display_value="Generate Content">4a092bbfc30a0310972fb6ec05013106</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_scope_delete display_value="">2766e94a646d4b16a3b829ae8bf9d7d9</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_a830408cc3da0310972fb6ec05013174</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_a830408cc3da0310972fb6ec05013174">f4904c8cc3da0310972fb6ec050131af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 11:07:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

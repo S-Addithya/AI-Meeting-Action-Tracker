@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 06:42:09</sys_created_on>
+        <sys_id>01c85f37c3860310972fb6ec05013137</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1908237_ai_mee_0_action_items.x_1908237_ai_mee_0.viewer</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_security_acl display_value="x_1908237_ai_mee_0_action_items">45c85f37c3860310972fb6ec05013131</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_01c85f37c3860310972fb6ec05013137</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 06:42:09</sys_updated_on>
+        <sys_user_role display_value="x_1908237_ai_mee_0.viewer" name="x_1908237_ai_mee_0.viewer">8005973fc3460310972fb6ec050131a8</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

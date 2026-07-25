@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1908237_ai_mee_0.Audience for app ai-meeting-workspace</api_name>
+        <description/>
+        <name>Audience for app ai-meeting-workspace</name>
+        <role_names/>
+        <roles>5805973fc3460310972fb6ec050131d7,8405973fc3460310972fb6ec050131ce,0c05973fc3460310972fb6ec050131b8,8005973fc3460310972fb6ec050131a8</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:01:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e14d9bffc3860310972fb6ec0501313b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app ai-meeting-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_ux_applicability_e14d9bffc3860310972fb6ec0501313b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:01:50</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

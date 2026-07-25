@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Generate AI Meeting Tasks</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>generate_ai_meeting_tasks</internal_name>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger - Record Updated➛Meetings Record","reference":"x_1908237_ai_mee_0_meetings","reference_display":"Meetings","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":[{"label":null,"value":null,"order":0.0}],"usedInstances":{"6d8001a2-326c-45fb-a5b5-c6cd3059ae5a":["record"],"4f0b1a04-a05a-429a-8f25-281009781b2d":["meeting"]},"attributes":{"":""}},{"name":"Updated_1.current.sys_created_by","label":"Trigger - Record Updated➛Meetings Record➛Created by","reference":"","reference_display":"Created by","type":"string","base_type":"string","parent_table_name":"x_1908237_ai_mee_0_meetings","column_name":"sys_created_by","choices":[{"label":null,"value":null,"order":0}],"usedInstances":{"4f0b1a04-a05a-429a-8f25-281009781b2d":["started_by"]},"attributes":null}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Generate AI Meeting Tasks</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:12:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1fcf9fb7c3c60310972fb6ec05013180</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Generate AI Meeting Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_hub_flow_1fcf9fb7c3c60310972fb6ec05013180</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:34:00</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>9694e773c30a0310972fb6ec050131aa</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1fcf9fb7c3c60310972fb6ec05013180^sys_idNOT INd7cf9fb7c3c60310972fb6ec05013185"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1fcf9fb7c3c60310972fb6ec05013180</id>
+        <name>Generate AI Meeting Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:12:53</sys_created_on>
+        <sys_id>d7cf9fb7c3c60310972fb6ec05013185</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:12:53</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d7cf9fb7c3c60310972fb6ec05013185"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1fcf9fb7c3c60310972fb6ec05013180^sys_idNOT IN62ef17f7c3c60310972fb6ec050131ef,a2ef17f7c3c60310972fb6ec050131d8,d2ef17f7c3c60310972fb6ec050131b9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Generate AI Meeting Tasks">1fcf9fb7c3c60310972fb6ec05013180</model>
+        <model_id>1fcf9fb7c3c60310972fb6ec05013180</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1fcf9fb7c3c60310972fb6ec05013180</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:13:22</sys_created_on>
+        <sys_id>62ef17f7c3c60310972fb6ec050131ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:13:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=62ef17f7c3c60310972fb6ec050131ef"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Generate AI Meeting Tasks">1fcf9fb7c3c60310972fb6ec05013180</model>
+        <model_id>1fcf9fb7c3c60310972fb6ec05013180</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1fcf9fb7c3c60310972fb6ec05013180</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:13:22</sys_created_on>
+        <sys_id>a2ef17f7c3c60310972fb6ec050131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:13:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a2ef17f7c3c60310972fb6ec050131d8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Generate AI Meeting Tasks">1fcf9fb7c3c60310972fb6ec05013180</model>
+        <model_id>1fcf9fb7c3c60310972fb6ec05013180</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_1fcf9fb7c3c60310972fb6ec05013180</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:13:22</sys_created_on>
+        <sys_id>d2ef17f7c3c60310972fb6ec050131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:13:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d2ef17f7c3c60310972fb6ec050131b9"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=1fcf9fb7c3c60310972fb6ec05013180^sys_idNOT IN4aef17f7c3c60310972fb6ec05013101"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Generate AI Meeting Tasks">1fcf9fb7c3c60310972fb6ec05013180</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:13:21</sys_created_on>
+        <sys_id>4aef17f7c3c60310972fb6ec05013101</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:15:52</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1fcf9fb7c3c60310972fb6ec05013180^sys_idNOT IN80d1e7fbc3c60310972fb6ec05013107,be80ab37c3c60310972fb6ec05013116"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Generate AI Meeting Tasks">1fcf9fb7c3c60310972fb6ec05013180</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:21:41</sys_created_on>
+        <sys_id>80d1e7fbc3c60310972fb6ec05013107</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:33:49</sys_updated_on>
+        <ui_id>4f0b1a04-a05a-429a-8f25-281009781b2d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VUUW+bMBD+K8jPCEHosiRvVatMk9J2Wru+dK1l8JFYMobZJg2L8t93xpBEXaNt0l7CE7777vi+8308bYngZEbGHOLpNBnnaZKmozgeTS6SbJxmyYinDJKMhESxEhC5ZrIBg+fuBQO1rnIwhrr89yaOU34DYIVaBpefgy8+iaeX0kc9ZLv9VnNmgdMkyhutQdnd7sVYZhvjEfWhEsPaQbP2ZHFkWkNzDczjsBcTtKw4SF/yCUqhRIC0uTC1ZO3jebLPV0JyLCGzp+eQ1EwjbQuazLZvUn97q5JlIBE6FyC5eeeabVu7s4USx2aB+mv38UVf/NAng8c+WWnuSCUhgY0FxQHZFEwaCEnJFKqvdEtmVjcYQNn8Tsl2j1gJZbEpcdiNET/x88k47h6HLgBF5uAR+yPt79WHi2tm2T32z22je2i+qgTeiR8Ph4I10l4dxzzgrraiUr7EskwO1ZVsSnXrh0P2DYY1wkhjkATUTq3j78UV96vq9etAci5UN5deqKxyJvcnZq0WWWMdnS0BCSX2oSWra9wiigu1Fl0xUimjpcRDVMjqFb9pxFJFLHe8I5wti+YYv+7Cj0wLJ+IG22DxLiS4aleSGXOQgjOkPxrHxAvrJdBuCt0IOnd0xbkWtb3ET62hJ74Lh19IAvGHk8sGF4fdOup5+I1saDKNJ6P0I3W7D0Bj9zLYU1bL3717cGiw6PL/6I4/Ex7c8dAtwvsCBoO8jS2Oa4Nbn+iNEf8vY0zOyRK9jLP3xCknPP8CBh0I9k4HAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=80d1e7fbc3c60310972fb6ec05013107"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Generate AI Meeting Tasks">1fcf9fb7c3c60310972fb6ec05013180</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:16:07</sys_created_on>
+        <sys_id>be80ab37c3c60310972fb6ec05013116</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:21:16</sys_updated_on>
+        <ui_id>6d8001a2-326c-45fb-a5b5-c6cd3059ae5a</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1TW2vbMBj9K0HPxthxmiV5Gw2BQS/QdnnpipGlL41AvkyXNFnIf98nW3aytAsp9GGF+cGg76Zzjr7zuCWCkwkZAI/icTxkSZwk/SjqjwZxNkyyuM8TChCTgBQ0B6xUwErF8byi0rrAdvu94tQAT+OQWaWgMLsd5rnQlaSbuS/DCFsKyTFPJo9PAamowokGFJlsj1LnQpI0A4mldy2mY4xmU7kzL5nNEVcq2uCV75z6TO/bFDPY5ODEUUBgbaDggEAWVGoISE4LZFmqDZkYZTGggPLbQm66iqUoTEM0p2stfuHNg8jVLQCZMS9Cd0y9QE14MaWG3uNkZqzq9CoFA91owmFBrTSXh7Gm4LYyoiyaFkMz2XaX0ubFTaMI6QYcvIfVCAIqx9Mhb2gt7pfly10LciaKWhJPUZaMyu5EjVEis8bB2RKQUGuc06oSxXNaqXIl6maEkofPEg/hQpYveKcWz0VImcMdoqo0nGF8WofnVAlH4hrHYPMuIHqjLyXVek8FNUx/WoekIeYppLUKtQRpvQmumSlRma941Qo88F3glz7qn9ww2C9Uvev6YOmpSLWhxuofNooSjlzxUTTSfr34p0rf54gz8LaOmAmQXL9BwDvCQI4YDaQNoT9N8eCTvblPdr74MGPEw6j+/tvj37VHdnFq3dh4v10HM/cWWafxOBr1ky8pOiAHSCP3N8hdvzbJ9T7zPk+cAbL1xEP9+G+Dbm1xHLs67O3dNAlvh4sPc8PoM/nA0/j0Rvjb+j/9BiO+nAIUCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=be80ab37c3c60310972fb6ec05013116"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1fcf9fb7c3c60310972fb6ec05013180</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:13:22</sys_created_on>
+        <sys_id>26ef17f7c3c60310972fb6ec050131eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:13:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1fcf9fb7c3c60310972fb6ec05013180</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:13:22</sys_created_on>
+        <sys_id>5eef17f7c3c60310972fb6ec050131d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:13:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1fcf9fb7c3c60310972fb6ec05013180</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:13:22</sys_created_on>
+        <sys_id>eaef17f7c3c60310972fb6ec050131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:13:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1fcf9fb7c3c60310972fb6ec05013180"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1fcf9fb7c3c60310972fb6ec05013180"/>
+</record_update>

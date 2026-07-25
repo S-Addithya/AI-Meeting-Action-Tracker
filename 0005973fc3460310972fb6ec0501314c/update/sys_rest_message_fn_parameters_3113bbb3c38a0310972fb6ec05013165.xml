@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>prompt</name>
+        <rest_message_function display_value="Generate Content">4a092bbfc30a0310972fb6ec05013106</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 08:37:09</sys_created_on>
+        <sys_id>3113bbb3c38a0310972fb6ec05013165</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>prompt</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_3113bbb3c38a0310972fb6ec05013165</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 08:37:34</sys_updated_on>
+        <type>string</type>
+        <value>Reply with ONLY the word SUCCESS</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

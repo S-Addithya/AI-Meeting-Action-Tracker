@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1908237_ai_mee_0.MeetingAIProcessor</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Processes meeting transcripts using the Gemini API, generates summaries and action items, and updates Meeting and AI Process Log records.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>MeetingAIProcessor</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MeetingAIProcessor = Class.create();
+
+MeetingAIProcessor.prototype = {
+
+    initialize: function() {
+    },
+
+    processMeeting: function(meetingId) {
+
+        var start = new Date().getTime();
+
+        try {
+
+            // -----------------------------
+            // Get Meeting Record
+            // -----------------------------
+
+            var meeting = new GlideRecord('x_1908237_ai_mee_0_meetings');
+
+            if (!meeting.get(meetingId)) {
+                gs.error("Meeting not found.");
+                return;
+            }
+
+            var transcript = meeting.getValue('transcript');
+
+            if (!transcript) {
+                gs.error("Transcript is empty.");
+                return;
+            }
+
+            // -----------------------------
+            // Build Prompt
+            // -----------------------------
+
+            var prompt =
+                "You are an AI meeting assistant.\n\n" +
+
+                "Analyze the meeting transcript and return ONLY valid JSON.\n\n" +
+
+                "Format:\n" +
+
+                "{\n" +
+                "\"summary\":\"Meeting summary here\",\n" +
+                "\"tasks\":[\n" +
+                "{\"task\":\"Task 1\",\"priority\":\"High\"},\n" +
+                "{\"task\":\"Task 2\",\"priority\":\"Medium\"}\n" +
+                "]\n" +
+                "}\n\n" +
+
+                "Transcript:\n\n" +
+
+                transcript;
+
+            // -----------------------------
+            // Gemini API
+            // -----------------------------
+
+            var apiKey = gs.getProperty(
+    'x_1908237_ai_mee_0.gemini_api_key'
+);
+
+            var rm = new sn_ws.RESTMessageV2();
+
+            rm.setHttpMethod("POST");
+
+            rm.setEndpoint(
+                "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent"
+            );
+
+            rm.setRequestHeader(
+                "Content-Type",
+                "application/json"
+            );
+
+            rm.setRequestHeader(
+                "X-goog-api-key",
+                apiKey.trim()
+            );
+
+            rm.setRequestBody(JSON.stringify({
+
+                contents: [
+
+                    {
+
+                        parts: [
+
+                            {
+
+                                text: prompt
+
+                            }
+
+                        ]
+
+                    }
+
+                ]
+
+            }));
+
+            var response = rm.execute();
+
+            var status = response.getStatusCode();
+
+            var body = response.getBody();
+
+            gs.info(body);
+
+            if (status != 200) {
+
+                gs.error(body);
+
+                return;
+
+            }
+
+            // -----------------------------
+            // Parse Gemini Response
+            // -----------------------------
+
+            var result = JSON.parse(body);
+
+            var text = result.candidates[0].content.parts[0].text;
+
+            text = text.replace(/```json/g, "");
+            text = text.replace(/```/g, "");
+            text = text.trim();
+
+            var ai = JSON.parse(text);
+
+            // -----------------------------
+            // Update Meeting
+            // -----------------------------
+
+            meeting.ai_summary = ai.summary;
+            meeting.ai_status = "Completed";
+            meeting.total_tasks = ai.tasks.length;
+
+            meeting.update();
+
+            // -----------------------------
+            // Delete Old Tasks
+            // -----------------------------
+
+            var oldTask = new GlideRecord(
+                'x_1908237_ai_mee_0_action_items'
+            );
+
+            oldTask.addQuery(
+                'meeting',
+                meeting.getUniqueValue()
+            );
+
+            oldTask.query();
+
+            while (oldTask.next()) {
+
+                oldTask.deleteRecord();
+
+            }
+
+            // -----------------------------
+            // Create New Tasks
+            // -----------------------------
+
+            for (var i = 0; i < ai.tasks.length; i++) {
+
+                var t = new GlideRecord(
+                    'x_1908237_ai_mee_0_action_items'
+                );
+
+                t.initialize();
+
+                t.meeting = meeting.getUniqueValue();
+
+                t.task_description = ai.tasks[i].task;
+
+                t.priority = ai.tasks[i].priority;
+
+                t.status = "Open";
+
+                t.ai_confidence = 0.95;
+
+                t.insert();
+
+            }
+
+            // -----------------------------
+            // Create AI Log
+            // -----------------------------
+
+            var log = new GlideRecord(
+                'x_1908237_ai_mee_0_ai_process_log'
+            );
+
+            log.initialize();
+
+            log.meeting = meeting.getUniqueValue();
+
+            log.process_name = "Meeting Analysis";
+
+            log.prompt = prompt;
+
+            log.ai_model = "Gemini 3.5 Flash";
+
+            log.ai_response = text;
+
+            log.tasks_generated = ai.tasks.length;
+
+            log.processing_time =
+    ((new Date().getTime() - start) / 1000).toFixed(2);
+
+            log.started_by = gs.getUserID();
+
+            log.status = "Completed";
+
+            log.insert();
+
+            gs.info("Meeting processed successfully.");
+
+        }
+
+        catch (e) {
+
+            gs.error(e);
+
+        }
+
+    },
+
+    type: 'MeetingAIProcessor'
+
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:43:53</sys_created_on>
+        <sys_id>5b86a77bc30a0310972fb6ec0501310f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>MeetingAIProcessor</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_script_include_5b86a77bc30a0310972fb6ec0501310f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-25 17:17:32</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Meetings">065d5333c3c60310972fb6ec050131ca</ais_search_source>
+        <label>Meetings</label>
+        <name>Meetings</name>
+        <order>100</order>
+        <search_context_config display_value="AI Meeting Workspace AI Search Configuration">ae2d13ffc1860310766c92e44c3b3ce3</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:02:11</sys_created_on>
+        <sys_id>a65d9333c3c60310972fb6ec050131a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meetings</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_search_filter_a65d9333c3c60310972fb6ec050131a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:02:11</sys_updated_on>
+    </sys_search_filter>
+</record_update>

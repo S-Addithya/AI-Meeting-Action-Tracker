@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
     <question_choice action="INSERT_OR_UPDATE">
         <inactive>false</inactive>
-        <misc>0</misc>
         <order>100</order>
         <published_ref/>
         <question display_value="Department">00db8e38c3520310972fb6ec050131b3</question>
-        <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-23 03:42:45</sys_created_on>
         <sys_id>5f6c0ab8c3520310972fb6ec05013161</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Sales</sys_name>
         <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
         <sys_policy/>
         <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
         <sys_update_name>question_choice_5f6c0ab8c3520310972fb6ec05013161</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-23 03:42:45</sys_updated_on>
+        <sys_updated_on>2026-07-23 03:57:46</sys_updated_on>
         <text>Sales</text>
-        <value/>
+        <value>Sales</value>
     </question_choice>
     <fx_price action="delete_multiple" query="id=5f6c0ab8c3520310972fb6ec05013161"/>
 </record_update>

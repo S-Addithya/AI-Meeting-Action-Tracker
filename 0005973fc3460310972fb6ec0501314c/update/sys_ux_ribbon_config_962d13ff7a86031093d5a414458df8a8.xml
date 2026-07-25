@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_ribbon_config">
+    <sys_ux_ribbon_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>AI Meeting Workspace Ribbon Config</description>
+        <name>AI Meeting Workspace Ribbon Config</name>
+        <sys_class_name>sys_ux_ribbon_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:01:32</sys_created_on>
+        <sys_id>962d13ff7a86031093d5a414458df8a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AI Meeting Workspace Ribbon Config</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_ux_ribbon_config_962d13ff7a86031093d5a414458df8a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:01:32</sys_updated_on>
+    </sys_ux_ribbon_config>
+</record_update>
