@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_notification_uiRoute</name>
+        <page display_value="AI Meeting Workspace">222d13ff3a8603107bdb1dc847540ffa</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:01:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>922d13ff0c860310661c12d5fa07eaa8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_notification_uiRoute</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_ux_page_property_922d13ff0c860310661c12d5fa07eaa8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:01:34</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1908237_ai_mee_0.222d13ff3a8603107bdb1dc847540ffa.root.chrome_notification_uiRoute</unique_name>
+        <value>cb1af195872023002941b53046cb0b4e</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=922d13ff0c860310661c12d5fa07eaa8"/>
+</record_update>

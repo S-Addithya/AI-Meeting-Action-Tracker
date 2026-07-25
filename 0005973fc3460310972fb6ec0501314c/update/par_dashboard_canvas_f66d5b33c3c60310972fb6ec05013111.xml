@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="AI Meeting Workspace">666d1b33c3c60310972fb6ec050131b8</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:02:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f66d5b33c3c60310972fb6ec05013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>par_dashboard_canvas_f66d5b33c3c60310972fb6ec05013111</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:02:28</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

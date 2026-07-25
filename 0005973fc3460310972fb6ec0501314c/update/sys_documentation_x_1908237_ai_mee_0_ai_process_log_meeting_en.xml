@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="meeting" label="Meeting" language="en" table="x_1908237_ai_mee_0_ai_process_log">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>meeting</element>
+            <help/>
+            <hint/>
+            <label>Meeting</label>
+            <language>en</language>
+            <name>x_1908237_ai_mee_0_ai_process_log</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-20 06:54:01</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Meeting</sys_name>
+            <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+            <sys_update_name>sys_documentation_x_1908237_ai_mee_0_ai_process_log_meeting_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-20 06:54:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

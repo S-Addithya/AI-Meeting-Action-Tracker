@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="DELETE">
+        <name>key</name>
+        <order>100</order>
+        <rest_message_function display_value="">4a092bbfc30a0310972fb6ec05013106</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:57:56</sys_created_on>
+        <sys_id>a2092bbfc30a0310972fb6ec05013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>key</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_a2092bbfc30a0310972fb6ec05013118</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:57:56</sys_updated_on>
+        <value>${api_key}</value>
+    </sys_rest_message_fn_param_defs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</application>
+        <file_path/>
+        <instance_id>2bc97bcddb963d1cebdd2a59139619bb</instance_id>
+        <instance_name>dev201908</instance_name>
+        <name>sys_rest_message_fn_param_defs_a2092bbfc30a0310972fb6ec05013118</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>key</name><order>100</order><rest_message_function display_value="">4a092bbfc30a0310972fb6ec05013106</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-20 07:57:56</sys_created_on><sys_id>a2092bbfc30a0310972fb6ec05013118</sys_id><sys_mod_count>0</sys_mod_count><sys_name>key</sys_name><sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package><sys_policy/><sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_a2092bbfc30a0310972fb6ec05013118</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-20 07:57:56</sys_updated_on><value>${api_key}</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+        <payload_hash>952688620</payload_hash>
+        <record_name>key</record_name>
+        <reverted_from/>
+        <source>cc05973fc3460310972fb6ec05013192</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:57:56</sys_created_on>
+        <sys_id>931aefffc30a0310972fb6ec05013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f7e881b730000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:57:56</sys_updated_on>
+        <type>HTTP Query Parameters</type>
+        <update_guid>531aefff300a0310d0a3f5de9807e966</update_guid>
+        <update_guid_history>531aefff300a0310d0a3f5de9807e966:952688620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 09:36:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_param_defs">sys_rest_message_fn_param_defs</sys_db_object>
+        <sys_id>47b1c831bde04044b3d9591267f49810</sys_id>
+        <sys_metadata>a2092bbfc30a0310972fb6ec05013118</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>key</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_parent display_value="Generate Content">4a092bbfc30a0310972fb6ec05013106</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_scope_delete display_value="">2766e94a646d4b16a3b829ae8bf9d7d9</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_param_defs_a2092bbfc30a0310972fb6ec05013118</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_param_defs_a2092bbfc30a0310972fb6ec05013118">931aefffc30a0310972fb6ec05013167</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 09:36:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

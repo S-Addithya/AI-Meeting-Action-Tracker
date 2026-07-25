@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ad959b7fc3460310972fb6ec05013172" label="Meetings" max_length="40" name="x_1908237_ai_mee_0_meetings" text_index="true" type="collection">
+        <element label="Title" max_length="400" name="title" type="string"/>
+        <element label="AI Summary" max_length="4000" name="ai_summary" type="string"/>
+        <element label="Total Tasks" max_length="40" name="total_tasks" type="integer"/>
+        <element label="Generate AI" max_length="255" name="generate_ai" type="boolean"/>
+        <element label="Transcript" max_length="4000" name="transcript" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Scheduled" sequence="0" value="scheduled"/>
+                <element inactive_on_update="false" label="Processing" sequence="1" value="processing"/>
+                <element inactive_on_update="false" label="Archived" sequence="3" value="archived"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element label="Meeting Date" max_length="40" name="meeting_date" type="glide_date_time"/>
+        <element choice="3" label="Department" max_length="40" name="department" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Operations" sequence="4" value="operations"/>
+                <element inactive_on_update="false" label="Finance" sequence="2" value="finance"/>
+                <element inactive_on_update="false" label="Engineering" sequence="0" value="engineering"/>
+                <element inactive_on_update="false" label="Marketing" sequence="3" value="marketing"/>
+                <element inactive_on_update="false" label="HR" sequence="1" value="hr"/>
+            </choice>
+        </element>
+        <element label="Organizer" max_length="32" name="organizer" reference="sys_user" type="reference"/>
+        <element choice="3" label="AI Status" max_length="40" name="ai_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not_started"/>
+                <element inactive_on_update="false" label="Failed" sequence="3" value="failed"/>
+                <element inactive_on_update="false" label="Processing" sequence="1" value="processing"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="organizer"/>
+        </index>
+    </element>
+</database>

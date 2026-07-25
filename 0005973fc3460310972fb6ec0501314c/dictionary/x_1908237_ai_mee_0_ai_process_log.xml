@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="faf997f7c3860310972fb6ec050131e1" label="AI Process Log" max_length="40" name="x_1908237_ai_mee_0_ai_process_log" text_index="true" type="collection">
+        <element label="AI Response" max_length="4000" name="ai_response" type="string"/>
+        <element label="AI Model" max_length="400" name="ai_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Queued" sequence="0" value="queued"/>
+                <element inactive_on_update="false" label="Failed" sequence="3" value="failed"/>
+                <element inactive_on_update="false" label="Processing" sequence="1" value="processing"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element label="Process Name" max_length="400" name="process_name" type="string"/>
+        <element label="Prompt" max_length="4000" name="prompt" type="string"/>
+        <element label="Meeting" max_length="32" name="meeting" reference="x_1908237_ai_mee_0_meetings" type="reference"/>
+        <element label="Tasks Generated" max_length="40" name="tasks_generated" type="integer"/>
+        <element label="Processing Time" max_length="40" name="processing_time" type="integer"/>
+        <element label="Tokens Used" max_length="40" name="tokens_used" type="integer"/>
+        <element label="Started By" max_length="32" name="started_by" reference="sys_user" type="reference"/>
+        <element label="Error Message" max_length="4000" name="error_message" type="string"/>
+        <index name="index">
+            <element name="meeting"/>
+        </index>
+        <index name="index2">
+            <element name="started_by"/>
+        </index>
+    </element>
+</database>

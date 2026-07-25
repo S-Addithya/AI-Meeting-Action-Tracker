@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="AI Process Log Table">3a5dd333c3c60310972fb6ec0501314c</datasource>
+        <field>sys_updated_on</field>
+        <source>x_1908237_ai_mee_0_ai_process_log</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-20 07:02:13</sys_created_on>
+        <sys_id>cf5dd333c3c60310972fb6ec050131d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1908237_ai_mee_0_ai_process_log.sys_updated_on</sys_name>
+        <sys_package display_value="AI Meeting Action Tracker" source="x_1908237_ai_mee_0">0005973fc3460310972fb6ec0501314c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AI Meeting Action Tracker">0005973fc3460310972fb6ec0501314c</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_cf5dd333c3c60310972fb6ec050131d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-20 07:02:13</sys_updated_on>
+        <value>sort_by_date</value>
+    </ais_datasource_field_attribute>
+</record_update>
